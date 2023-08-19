@@ -1,0 +1,51 @@
+.attendants_list_container {
+    width: 100%;
+}
+.attendants_list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.label {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--teal-accent-400);
+}
+
+.attendant_details {
+    width: 100%;
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
+.attendant_profile_picture {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    min-height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.personal_details {
+    font-size: 0.8rem;
+}
+.fullname {
+    font-weight: 700;
+}
+
+.deffered_frame {
+    margin-left: auto;
+    color: var(--teal-accent-400);
+}
+.deffered {
+    border: 1px solid var(--teal-accent-400);
+    font-weight: 600;
+    font-size: 0.6rem;
+    border-radius: 16px;
+    padding: 4px 8px;
+}
+.deffered_time {
+    font-size: 0.7rem;
+    text-align: end;
+    font-weight: 600;
+}

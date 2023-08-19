@@ -1,0 +1,5 @@
+.component_wrapper {
+    border: var(--component-container-border);
+    border-radius: 16px;
+    padding: 32px;
+}

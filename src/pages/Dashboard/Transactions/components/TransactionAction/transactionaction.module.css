@@ -1,0 +1,10 @@
+.payout {
+    background: var(--orange-accent-a-900) !important;
+    border-color: var(--orange-accent-a-900) !important;
+    color: white !important;
+}
+.paid {
+    background: var(--green-accent-900) !important;
+    border-color: var(--green-accent-900) !important;
+    color: white !important;
+}

@@ -1,0 +1,66 @@
+.container {
+    position: fixed;
+    z-index: var(--absolute-z-index-modal);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(7.5px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_container {
+    background: var(--white);
+    width: 85vw;
+    height: max-content;
+    margin: 0 auto;
+    padding: 5% 2%;
+    border-radius: 16px;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+.modal .check_icon {
+    color: var(--green-accent-100);
+    font-size: 6rem;
+    margin-bottom: 5%;
+}
+.modal .status_head {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--black-accent-900);
+}
+.modal .status_info {
+    color: var(--grey-accent-900);
+    font-weight: 500;
+}
+.modal_btn_wrapper {
+    width: 70%;
+    height: 50px;
+    margin-top: 5%;
+}
+.modal_btn_wrapper button {
+    background: var(--orange-gradient-1);
+    color: white;
+}
+
+@media screen and (min-width: 700px) {
+    .modal_container {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .modal_container {
+        width: 35%;
+    }
+}

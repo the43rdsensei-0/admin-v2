@@ -1,0 +1,38 @@
+.sidebar_wrapper {
+    display: none;
+}
+.mobile_sidebar_wrapper {
+    display: block;
+}
+.main {
+    padding: 70px 5%;
+    width: calc(100% - 10%);
+    margin-top: var(--mobile-dashboard-navbar-header-height);
+    background: var(--grey-accent-b-100);
+    /* margin-top = 0 solves the issue of main frame moving according to it's child margin */
+    margin-top: 0;  
+}
+
+
+
+/* DESKTOP SCREEN */
+@media screen and (min-width: 1024px) {
+    .mobile_sidebar_wrapper {
+        display: none;
+    }
+
+    .body {
+        display: flex;
+        --sidebar-width: 270px;
+    }
+    .sidebar_wrapper {
+        display: block;
+        width: var(--sidebar-width);
+        position: fixed;
+        height: 100vh;
+    }
+    .main {
+        margin-left: var(--sidebar-width);
+        width: calc(100% - var(--sidebar-width));
+    }
+}

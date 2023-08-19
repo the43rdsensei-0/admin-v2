@@ -1,0 +1,24 @@
+.metric_card {
+    height: 100px;
+    background: none;
+    padding: 16px;
+}
+.metric_card_content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+.metric_card_content .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.metric_card_content .label {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.metric_card_content .value {
+    font-weight: 800;
+    font-size: 1.5rem;
+}

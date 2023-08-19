@@ -1,0 +1,78 @@
+.customer_details {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.container_label {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--teal-accent-400);
+}
+.fullname {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.wallet_details {
+    width: 100%;
+}
+.wallet_details .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy_capsule {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    background: var(--teal-accent-faded-100);
+    color: white;
+    border-radius: 25px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+.copy_icon {
+    width: 20px;
+    height: 20px;
+}
+.copy_capsule svg {
+    stroke: white;
+}
+.copy_capsule svg path {
+    fill: white;
+}
+.wallet_details .address {
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: 100%;
+    word-break: break-all;
+}
+
+.bank_details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--teal-accent-100);
+}
+.bank_details .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section .label {
+    font-weight: 0.8rem;
+}
+.section .content_details {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: end;
+}

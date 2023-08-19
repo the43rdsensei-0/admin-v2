@@ -1,0 +1,22 @@
+.bank_account_list {
+    padding: 16px 0;
+    display: flex;
+    gap: 1rem;
+}
+.add_bank_account {
+    width: 150px;
+    height: 150px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #B9B9B9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FF7401;
+    cursor: pointer;
+}
+.plus {
+    font-size: 2rem;
+}

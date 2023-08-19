@@ -1,0 +1,5 @@
+.restore_text_button {
+    color: var(--green-accent-100);
+    background: var(--green-accent-faded-100);
+    height: 50px;
+}

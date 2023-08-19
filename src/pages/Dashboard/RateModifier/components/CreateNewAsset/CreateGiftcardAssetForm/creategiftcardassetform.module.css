@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container > *:first-of-type {
+    margin-bottom: -1rem;
+}
+.container > * {
+    margin-bottom: 1rem;
+}

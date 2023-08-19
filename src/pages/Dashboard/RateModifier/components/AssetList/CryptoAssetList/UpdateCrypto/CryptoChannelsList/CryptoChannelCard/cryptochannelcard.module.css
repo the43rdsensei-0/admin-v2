@@ -1,0 +1,71 @@
+.container_label {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.crypto_channel_card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    box-shadow: var(--shadow-500);
+    border-radius: 32px;
+    padding: 16px;
+}
+
+.channel_heading {
+    display: flex;
+    align-items: center;
+}
+.channel_label {
+    color: var(--orange-accent-400);
+    font-weight: 600;
+    background: var(--orange-accent-faded-300);
+    width: max-content;
+    padding: 8px;
+    border-radius: 16px;
+    font-size: 0.8rem;
+}
+.delete_channel_wrapper {
+    width: max-content;
+    margin-left: auto;
+    background: none;
+}
+.delete_channel {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 1.5rem;
+
+    background: var(--crimson-accent-faded-900);
+    color: var(--crimson-accent-900);
+
+    cursor: pointer;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 8px;
+}
+.details > div {
+    background: var(--orange-accent-faded-200);
+    border-radius: 16px;
+    padding: 8px 16px;
+    height: 60px;
+}
+.category > div {
+    padding: 2px;
+}
+.category .title { 
+    font-weight: 700;
+}
+.category .content {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.category.address {
+    display: flex;
+    justify-content: space-between;
+}
+.address_image {
+    width: auto;
+}

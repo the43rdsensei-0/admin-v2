@@ -1,0 +1,20 @@
+.capsule_btn_navigation {
+    width: max-content;
+    display: flex;
+    gap: 0.5rem;
+    padding: 10px;
+    border-radius: 32px;
+    background: var(--grey-accent-a-100);
+}
+.capsule_btn_navigation .option {
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 32px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #4444;
+}
+.capsule_btn_navigation .option.active { 
+    background: white;
+    color: #FF7A01;
+}

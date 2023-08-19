@@ -1,0 +1,25 @@
+.customer_details_wrapper {
+    border: var(--component-container-border);
+    border-radius: 16px;
+    padding: 32px;
+}
+.customer_profile_form {
+    width: 50%;
+    padding: 0;
+    margin-top: 5%;
+}
+
+.twin_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    margin-top: 10%;
+}
+.twin_buttons > *:nth-child(1) {
+    width: 40%;
+}
+.twin_buttons > *:nth-child(2) {
+    width: 60%;
+}

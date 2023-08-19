@@ -1,0 +1,14 @@
+.transaction_note_card {
+    display: block;
+    padding: 16px;
+    background: var(--grey-accent-100);
+}
+.title {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.transaction_note_card .message_box {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}

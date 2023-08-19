@@ -1,0 +1,9 @@
+.primary_icon_button {
+    width: 250px;
+    height: 50px;
+    border: 1px solid;
+    border-image-source: var(--orange-gradient-1);
+    border-image-slice: 1;
+    background: none;
+    color: var(--orange-accent-400);
+}

@@ -1,0 +1,5 @@
+.primary_text_button {
+    background: var(--orange-gradient-1);
+    height: 50px;
+    color: white;
+}

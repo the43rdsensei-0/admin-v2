@@ -1,0 +1,8 @@
+.defer_button {
+    width: 100px;
+    height: 45px;
+    color: white;
+    background: var(--teal-accent-400);
+    font-size: 0.8rem;
+    margin-left: auto;
+}

@@ -1,0 +1,18 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.buttons > * {
+    width: 30%;
+    height: 50px;
+}
+.add_new_channels_button {
+    width: 40%;
+    margin-left: auto;
+    background: none;
+}
+.go_back_btn {
+    width: 25%;
+    margin-right: auto;
+}

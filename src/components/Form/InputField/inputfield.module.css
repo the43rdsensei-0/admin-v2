@@ -1,0 +1,115 @@
+.input_field_container {
+    display: flex;
+    flex-direction: column;
+
+    --input-field-padding: 10px;
+}
+.label{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.input_field {
+    border: 1px solid var(--grey-accent-600);
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.input_field:focus-within {
+    transition: 0.1s;
+    border-color:  var(--input-outline-color);
+    border-width: 1.5px;
+}
+
+.prefix_icon_with_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    
+    width: 20%;
+    height: 80%;
+    margin: auto 0;
+
+    border-right: 1px solid var(--grey-accent-500);
+}
+.prefix {
+    margin-left: 8px;
+}
+.prefix_icon {
+    min-width: 13px;
+    width: 13px;
+    height: 13px;
+}
+.prefix_icon_text {
+    font-size: 0.85rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: inherit;
+    height: 100%;
+    width: calc(60% - calc(var(--input-field-padding) * 2));
+    padding: 0 10px;
+    flex-grow: 2;
+}
+input::placeholder {
+    color: var(--grey-accent-600);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.suffix_btn_wrapper {
+    width: 20%;
+    height: 80%;
+    margin: auto 0;
+    border-left: 1px solid var(--grey-accent-500);
+}
+.suffix_btn_wrapper button {
+    background: none;   
+    color: var(--orange-accent-800);
+    font-size: 0.8rem;
+}
+.suffix_text_wrapper {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+}
+.icon_wrapper {
+    color: var(--grey-accent-600);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_wrapper.prefix {
+    width: 10%;
+}
+.icon_wrapper.suffix {
+    width: 15%;
+}
+
+.error {
+    font-size: 0.8em;
+    color: red;
+}
+.input_error {
+    border-color: red;
+}
+
+.input_field.disabled,
+.input_field.disabled input 
+{
+    background: var(--disabled-input-field);
+} 

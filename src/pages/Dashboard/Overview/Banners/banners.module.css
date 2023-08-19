@@ -1,0 +1,10 @@
+.ads_banner_section {
+    display: flex;
+    gap: 1rem;
+}
+.ads_banner_section > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 468px;
+}

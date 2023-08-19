@@ -1,0 +1,12 @@
+.bank_account_card {
+    background: url("src/assets/images/bg-cells-2.svg");
+    background-color: var(--teal-accent-200);
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+    color: white;
+    border-radius: 16px;
+}

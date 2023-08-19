@@ -1,0 +1,12 @@
+.crypto_asset {
+    padding: 16px 0;
+    cursor: pointer;
+}
+.crypto_details {
+    display: flex;
+    align-items: center;
+}
+.asset_label {
+    font-weight: 600;
+    color: var(--grey-accent-a-800);
+}

@@ -1,0 +1,24 @@
+.container {
+    width: 100px;
+    padding: 0px 15px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9%;
+}
+
+.success {
+    background: var(--green-accent-900);
+}
+.failed {
+    background: var(--crimson-accent-900);
+}
+.pending {
+    background: var(--orange-accent-600);
+}
+.processing {
+    background: var(--orange-accent-900);
+}

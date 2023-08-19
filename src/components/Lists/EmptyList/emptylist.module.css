@@ -1,0 +1,13 @@
+.empty_list_container {
+    color: var(--grey-accent-800);
+    width: 100%;
+    padding: 10% 0;
+    
+
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

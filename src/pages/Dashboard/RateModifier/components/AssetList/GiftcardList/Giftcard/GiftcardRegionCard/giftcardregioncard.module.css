@@ -1,0 +1,49 @@
+.region_card {
+    background: var(--grey-accent-400);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+.region_details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    font-weight: 700;
+}
+.gift_card_region_image {
+    height: 30px;
+    width: auto;
+
+}
+.region_title {
+    text-transform: capitalize;
+}
+.region_title_abbr {
+    text-transform: uppercase;
+}
+.sep_dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: black;
+}
+
+.giftcard_region_value_list {
+    padding: 10px;
+}
+
+.add_new_region_value {
+    height: 80px;
+    background: white;
+    color: var(--orange-accent-400);
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 16px;
+    padding: 16px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

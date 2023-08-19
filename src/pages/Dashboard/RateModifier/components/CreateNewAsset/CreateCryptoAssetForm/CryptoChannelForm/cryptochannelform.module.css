@@ -1,0 +1,63 @@
+
+.channel_field_group {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.container_label {
+    font-weight: 600;
+}
+
+.group_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.group_wrapper > div {
+    padding: 16px;
+    border-bottom: var(--border-300);
+}
+.channel_heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.channel_label {
+    color: var(--orange-accent-400);
+    font-weight: 600;
+    background: var(--orange-accent-faded-300);
+    width: max-content;
+    padding: 8px;
+    border-radius: 16px;
+    font-size: 0.8rem;
+}
+.delete_channel {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 4px;
+    margin-left: auto;
+
+    background: var(--crimson-accent-faded-900);
+    color: var(--crimson-accent-900);
+
+    cursor: pointer;
+}
+
+.add_new_channel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    border: 1px solid;
+    width: max-content;
+    padding: 8px;
+    height: max-content;
+
+    margin-left: auto;
+    margin-top: 1rem;
+    border-radius: 32px;
+    font-size: 0.9rem;
+
+    background: var(--orange-gradient-1);
+    cursor: pointer;
+    color: white;
+}

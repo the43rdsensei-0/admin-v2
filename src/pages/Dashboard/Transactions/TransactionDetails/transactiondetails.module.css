@@ -1,0 +1,150 @@
+.loader_container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5%;
+    width: 50%;
+}
+.transaction_details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+}
+.page_title {
+    color: var(--grey-accent-a-800);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.content_section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.content_section .label {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.content_section .content_details {
+    color: var(--grey-accent-a-800);
+}
+.txn_id {
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.asset_info {
+    display: flex;
+    align-items: center;
+}
+.asset_info .name {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.txn_date {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.amount_sent {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.amount_sent_in_crypto {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--blue-accent-100);
+}
+.amount_group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_section .bank_card {
+    padding: 16px;
+    border-radius: 16px;
+    background: var(--blue-accent-faded-100);
+    color: var(--teal-accent-300);
+}
+.bank_card .name {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.account_number_capsule {
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: var(--teal-accent-300);
+}
+
+.people_section {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    max-height: 85vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.attendant_details_card {
+    position: relative;
+    padding: 32px;
+    border: none;
+    overflow: hidden;
+}
+.customer_details_card {
+    padding: 32px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.amount_to_pay {
+    width: 100%;
+    border-top: 1px solid var(--grey-accent-500);
+    padding: 10px;
+}
+.amount_to_pay .label {
+    font-weight: 800;
+    font-size: 1rem;
+}
+.amount_to_pay .value {
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+.buttons, 
+.post_review_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.note_box {
+    background: var(--grey-accent-200);
+    color: var(--black-accent-500);
+    border-radius: 16px;
+    margin: 0;
+    padding: 16px;
+
+    display: flex;
+    gap: .5rem;
+    align-items: flex-start;
+}
+.note_box svg {
+    width: 30px;
+    height: 30px;
+}
+.note_box .info {
+    margin: 0;
+    width: 95%;
+    font-weight: 600;
+    font-size: 1rem;
+}

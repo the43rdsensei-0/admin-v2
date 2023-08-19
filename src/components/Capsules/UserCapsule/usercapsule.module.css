@@ -1,0 +1,60 @@
+.container {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        position: relative;
+        z-index: var(--absolute-user-menu);
+    }
+    .profile_options  {
+        width: 80%;
+        height: 45px;
+        border-radius: 32px;
+        background-color: var(--grey-accent-a-100);
+        
+        padding: 0 16px;
+        display: flex;
+        align-items: center;
+
+    }
+    .profile_name {
+        font-weight: 600;
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+
+    .options {
+        position: absolute;
+        top: 51px;
+        width: 100%;
+        border-radius: 16px;
+        padding: 10px 0;
+
+        background-color: var(--grey-accent-a-100);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        overflow: hidden;
+    }
+    .option {
+        width: calc(90% - 8px);
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        padding: 5%;
+    }
+    .option:hover {
+        background: var(--grey-accent-400);
+        border-radius: 8px;
+    }
+}   

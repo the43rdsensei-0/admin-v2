@@ -1,0 +1,5 @@
+.delete_text_button {
+    height: 50px;
+    background: var(--delete-button-color);
+    color: var(--delete-button-text-color); 
+}

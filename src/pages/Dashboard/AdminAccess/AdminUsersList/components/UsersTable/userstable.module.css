@@ -1,0 +1,14 @@
+.users_table_container table {
+    width: 100%;
+    margin-top: 5%;
+    border: var(--table-border);
+    box-shadow: var(--table-shadow);
+    padding: 16px;
+    border-collapse: collapse;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.fullname {
+    font-weight: 700;
+    color: var(--teal-accent-300);
+}

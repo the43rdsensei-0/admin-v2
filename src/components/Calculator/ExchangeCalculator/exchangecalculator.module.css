@@ -1,0 +1,40 @@
+.container {
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 10%;
+    background: var(--grey-accent-a-300);
+    color: var(--grey-accent-a-900);
+    border: 0.5px solid var(--grey-accent-a-200);
+    height: 130px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.exchange_rate {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.amnt_received {
+    margin-top: 12%;
+}
+.amnt_received .label {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.amount {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--teal-accent-100);
+}
+
+
+@media screen and (min-width: 1300px) {
+    .amount {
+        letter-spacing: -2.5px;
+        font-size: 2.4rem;
+    }
+}

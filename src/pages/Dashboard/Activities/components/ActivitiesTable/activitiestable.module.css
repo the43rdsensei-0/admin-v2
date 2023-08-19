@@ -1,0 +1,37 @@
+.activity, 
+.assignee,
+.title,
+.date_time {
+    text-transform: capitalize;
+}
+
+.activity {
+    font-weight: 700;
+}
+.assignee {
+    color: var(--teal-accent-300);
+}
+.filter_section {
+    display: flex;
+}
+.search_button {
+    width: 40%;
+}
+
+.activities_table_container tbody td:first-of-type {
+    width: initial;
+}
+.activities_table_container table {
+    width: 100%;
+    margin-top: 5%;
+    border: var(--table-border);
+    box-shadow: var(--table-shadow);
+    padding: 16px;
+    border-collapse: collapse;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.activity {
+    font-weight: 700;
+    color: var(--teal-accent-300);
+}

@@ -1,0 +1,36 @@
+.customers_table_container table {
+    width: 100%;
+    margin-top: 5%;
+    border: var(--table-border);
+    box-shadow: var(--table-shadow);
+    padding: 16px;
+    border-collapse: collapse;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.customers_table_container td {
+    width: calc(100% / 4);
+}
+.customers_table_container .fullname {
+    width: 100%;
+    margin-left: 10px;
+    font-weight: 700;
+    color: var(--teal-accent-300);
+}
+.customers_table_container .email {
+    width: 100%;
+    font-weight: 700;
+    margin-right: 10px;
+    color: var(--teal-accent-300);
+}
+
+.custom_list_section {
+    display: flex;
+    align-items: center;
+}
+
+.button_actions {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+}

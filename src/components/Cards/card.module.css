@@ -1,0 +1,13 @@
+.container {
+    --card-padding: 32px;
+    height: calc(100% - calc(var(---card-padding) * 2));
+    padding: var(--card-padding);
+    background: var(--grey-accent-a-400);
+    color: var(--grey-accent-a-900);
+    border: 0.5px solid var(--grey-accent-a-200);
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

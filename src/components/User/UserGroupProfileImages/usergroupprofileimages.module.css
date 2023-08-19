@@ -1,0 +1,15 @@
+.user_group_profile_images_container {
+    display: flex;
+}
+.circle_wrapper {
+    border: 3px solid white;
+    background: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: -20px;
+}
+.circle_wrapper img {
+    border-radius: 50%;
+}

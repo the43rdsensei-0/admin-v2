@@ -1,0 +1,52 @@
+.code_field_container {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.code_field_container input {
+    border-width: 1px;
+    border-style:  solid;
+    border-color:  var(--grey-accent-600);
+    width: calc(100% / 8);
+    min-width: unset;
+    max-width: unset;
+    padding: 0;
+    text-align: center;
+
+    border-radius: 5px;
+    font-size: 2em;
+}
+.info {
+    font-size: 0.8em;
+    font-weight: 600;
+
+    text-align: center;
+    margin-top: 5%;
+
+    color: var(--grey-accent-900);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.error {
+  font-size: 0.7em;
+  color: red;
+}
+.code_field_container.input_error input {
+  border-color:  red;
+}

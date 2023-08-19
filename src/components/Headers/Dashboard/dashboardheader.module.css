@@ -1,0 +1,100 @@
+.heading,
+.nav_extra,
+.title,
+.subtitle {
+    display: flex;
+    align-items: center;
+}
+.heading {
+    margin-bottom: 100px;
+}
+.section_title .title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    gap: 1rem;
+}
+
+.section_title .title {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+.section_title .subtitle {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--grey-accent-900);
+}
+
+.welcome_icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 2%;
+}
+
+.back_btn_wrapper button {
+    background: none;
+}
+
+.nav_extra {
+    margin-left: auto;
+}
+.notif_icon {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: auto 0;
+}
+.notif_icon_wrapper {
+    position: relative;
+}
+
+.notif_icon_wrapper::before {
+    content: "9";
+    background-color: var(--crimson-accent-100);
+    position: absolute;
+    top: -15%;
+    right: -10%;
+    width: 21px;
+    height: 21px;
+    padding: 1px;
+    font-weight: 600;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_options {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .section_title {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .nav_extra {
+        gap: 1rem;
+    }
+    .profile_options  {
+        width: 80%;
+        height: 45px;
+        border-radius: 32px;
+        background-color: var(--grey-accent-a-100);
+        
+        padding: 0 16px;
+        display: flex;
+        align-items: center;
+    }
+    .profile_name {
+        font-weight: 600;
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+}

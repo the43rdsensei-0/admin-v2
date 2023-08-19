@@ -1,0 +1,6 @@
+.primary_text_button {
+    background: none;
+    border: 0.5px solid var(--orange-accent-900);
+    color: var(--orange-accent-500);
+    height: 50px;
+}

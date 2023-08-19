@@ -1,0 +1,13 @@
+.form_container {
+    padding: 0 5%;
+}
+.add_new_region {
+    margin-top: -15px;
+    width: max-content;
+    margin-left: auto;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--grey-accent-800);
+    cursor: pointer;
+    text-decoration: underline;
+}

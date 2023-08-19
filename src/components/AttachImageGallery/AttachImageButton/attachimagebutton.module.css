@@ -1,0 +1,16 @@
+.attach_image_button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--grey-accent-800);
+    width: max-content;
+    padding: 0 10px;
+    height: 30px;
+    border-radius: 25px;
+    color: var(--grey-accent-800);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.attach_image_button_icon {
+    height: 20px;
+}

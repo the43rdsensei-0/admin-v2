@@ -1,0 +1,112 @@
+.header {
+    height: var(--mobile-dashboard-navbar-header-height);
+    background: var(--grey-accent-100);
+    padding: 0 5%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: var(--absolute-z-index-navigation);
+}
+
+.mobile_logo_img_wrapper {
+    width: 7%;
+    height: 80%;
+}
+.mobile_logo_img_wrapper img {
+    object-fit: contain;
+}
+
+.fn_icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.navigation_section {
+    position: fixed;
+    height: calc(100vh - var(--mobile-dashboard-navbar-header-height));
+    top: var(--mobile-dashboard-navbar-header-height);
+    left: -100%;
+    right: 100%;
+    bottom: 0;
+    background: var(--grey-accent-100);
+    z-index: 100;
+    padding: 5%;
+}
+.drawer_open {
+    animation: slideIn ease-in-out .2s forwards;
+}
+.drawer_close {
+    animation: slideOut ease-in-out .2s forwards;
+}
+@keyframes slideIn {
+    100% {
+        left: 0;
+        right: 0;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+        right: 100%;
+    }
+}
+.navigation_bar {
+    /* margin-top: 5rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+    overflow-y: auto;
+}
+.navigation_item {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0% 10%;
+    color: rgb(27, 27, 27);
+
+    color: var(--grey-accent-900);
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navigation_item:hover {
+    background: var(--grey-accent-200);
+}
+
+.navigation_item.active {
+    color: var(--orange-accent-800);
+    fill: var(--orange-accent-800);
+    background: var(--grey-accent-300);
+}
+.navigation_item.active path:not([fill="white"]) {
+    fill: var(--orange-accent-900);
+}
+.navigation_item path:not([fill="white"]) {
+    fill: var(--grey-accent-900);
+}
+
+.nav_label {
+    margin-left: 5%;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.logout_btn {
+    height: 60px;
+    margin: 0 auto;
+    font-weight: 700;
+    color: var(--crimson-accent-100);
+    font-size: 1.2rem;
+}

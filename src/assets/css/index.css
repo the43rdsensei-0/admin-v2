@@ -1,0 +1,217 @@
+/* variables */
+:root {
+  --orange-accent-900: #FF7000;
+  --orange-accent-800: #FF7200;
+  --orange-accent-700: #FFA300;
+  --orange-accent-600: #FFA500;
+  --orange-accent-500: #E96800;
+  --orange-accent-400: #FF7401;
+  --orange-accent-300: #FF3D00;
+  --orange-accent-faded-100: #F9DCC6;
+  --orange-accent-faded-200: #f9dcc633;
+  --orange-accent-faded-300: rgba(255, 114, 0, 0.2);
+  --orange-accent-faded-400: rgba(248, 160, 54, 0.1);
+  --orange-accent-faded-800: rgba(255, 163, 0, 0.03);
+  --orange-accent-faded-900: rgba(255, 112, 0, 0.7);
+
+  --orange-accent-a-900: #FF7000;
+
+  --teal-accent-100: #194C4D;
+  --teal-accent-200: #174A4B;
+  --teal-accent-300: #1D5051;
+  --teal-accent-400:  #1F5253;
+
+  --teal-accent-faded-100: #194c4dd7;
+  --teal-accent-faded-a-100: #D7E3E3;
+  --teal-accent-faded-aa-100: rgba(229, 250, 251, 0.5);
+  
+  --grey-accent-100: #FBFBFB;
+  --grey-accent-200: #f5f5f5;
+  --grey-accent-300: #EDEDED;
+  --grey-accent-400: rgba(230, 230, 230, 0.957);
+  --grey-accent-500: #C5C5C5;
+  --grey-accent-600: #8E8E8E;
+  --grey-accent-700: rgba(#8E8E8E, 0.58);
+  --grey-accent-800: #7a7878;
+  --grey-accent-900: #686868;
+
+  --grey-accent-a-100: #ECEFEF;
+  --grey-accent-a-200: #e2eaea;
+  --grey-accent-a-300: #B9B9B9;
+  --grey-accent-a-400: #DEE2E6;
+  --grey-accent-a-600: #838383;
+  --grey-accent-a-700: #575758;
+  --grey-accent-a-800: #444444;
+  --grey-accent-a-900: #393939;
+
+  --grey-accent-b-100:  #FFFFFF;
+  
+  --black-accent-500: #444444;
+  --black-accent-900: #000000;
+  
+  --white: #ffff;
+
+  --crimson-accent-100: #EF233C;
+  --crimson-accent-900: #FF0000;
+  --crimson-accent-faded-900: #ff000026;
+  
+  --red-accent-100: #FF0000;
+  --red-accent-faded-100:#FFF6F6;
+  --red-accent-900: #A10003;
+
+  --white: #FFFFFF;
+  
+  --green-accent-100:  #64C900;
+  --green-accent-900: #00A336;
+
+  --green-accent-faded-100:#64c9002d;
+
+  --blue-accent-100: #00B2FF;
+  --blue-accent-faded-900: rgba(21, 61, 242, 0.25);
+  --blue-accent-faded-100: rgba(229, 250, 251, 0.5);
+
+  --purple-accent-100: #AD5B94;
+
+  --orange-gradient-1: linear-gradient(91.03deg, #FF7000 -2.69%, #FFA300 106.38%);
+  --orange-webkit-gradient-1: -webkit-linear-gradient(45deg, #FF7000 -2.69%, #FFA300 106.38%);
+  --orange-pink-gradient-1: linear-gradient(110.04deg, #FFA300 -5.83%, #FF7C9B 69.77%, #D02ECA 97.86%);
+  --orange-pink-webkit-gradient-1: -webkit-linear-gradient(110.04deg, #FFA300 -5.83%, #FF7C9B 69.77%, #D02ECA 97.86%);
+  --orange-gold-gradient-1: linear-gradient(360deg, #E1AD0C 43.86%, #D97228 49.56%);
+  --orange-gold-webkit-gradient-1: -webkit-linear-gradient(360deg, #E1AD0C 43.86%, #D97228 49.56%);
+
+  --shadow-100: 0px 2px 4px -2px rgba(16, 24, 40, 0.03);
+  --shadow-200: 0px 3px 3px 1px rgba(16, 24, 40, 0.08);
+  --shadow-500: 0px 0px 6px 2px rgba(16, 24, 40, 0.09);
+
+  --border-100: 0.5px solid var(--grey-accent-a-600);
+  --border-200: 0.5px solid var(--grey-accent-500);
+  --border-300: 0.5px solid var(--grey-accent-300);
+
+  --mobile-dashboard-navbar-header-height: 55px; 
+
+  --absolute-z-index-dropdown: 85;
+  --absolute-z-index-navigation: 90;
+  --absolute-z-index-notifications: 95;
+  --absolute-z-index-modal: 99;
+  --absolute-z-index-loader: 99;
+  --absolute-user-menu: 98;
+
+  --disabled-input-field: var(--grey-accent-300);
+  --border-color: var(--grey-accent-800);
+
+  --primary-button: var(--orange-gradient-1);
+
+  --input-outline-color: var(--orange-accent-500); 
+
+  --table-border-color: var(--grey-accent-a-900);
+  --table-shadow: 0px 0px 0px 1px var(--grey-accent-500);
+  --table-border: var(--border-200);
+  --table-row-line: var(--border-200);
+
+  --component-container-border: var(--border-300);
+
+  --delete-button-color: var(--orange-accent-faded-300);
+  --delete-button-text-color: var(--crimson-accent-900);
+
+  --glass-backgound-color: rgba(0, 0, 0, 0.2);
+  --glass-backgound-blur: blur(7.5px);
+
+  --eclipse-7: rgba(255, 112, 0, 0.4);
+
+  --loader-orange-color: var(--orange-accent-300);
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* reset */
+body {
+  font-family: "Manrope", "open sans", monospace;
+}
+body, p, a, ul, li {
+  margin: 0;
+  padding: 0;
+}
+/* width */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style-type: none;
+}
+
+/* base styles  */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-display {
+  display: flex;
+}
+.flex-display-row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-display-row-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.flex-display-row-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-display-column-center {
+  display: flex;
+  align-items: center;
+}
+.flex-display-column-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.twin_buttons {
+  display: flex;
+  gap: 1rem;
+}
+.twin_buttons > * {
+  width: 30%;
+}
+
+.breaking_wide {
+  display: none;
+}
+
+.eclipse {
+  position: absolute;
+  z-index: -1;
+}
+
+@media screen and (min-width: 700px) {
+  .breakline_narrow {
+    display: none;
+  }
+  .breaking_wide {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+.twin_buttons {
+  justify-content: flex-start;
+}
+.twin_buttons > * {
+    width: 25%;
+}
+
+}

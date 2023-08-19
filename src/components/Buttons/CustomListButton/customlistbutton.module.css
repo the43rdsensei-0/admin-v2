@@ -1,0 +1,19 @@
+.custom_list_button_container {
+    position: relative;
+    width: 200px;
+}
+.custom_list_button {
+    height: 45px;
+}
+.options_container {
+    --padding: 16px;
+    min-height: 150px;
+    max-height: 350px;
+    padding: var(--padding);
+    width: calc(100% - calc(var(--padding) * 2));
+    overflow-y: auto;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: var(--shadow-200);
+    border-radius: 10px;
+}

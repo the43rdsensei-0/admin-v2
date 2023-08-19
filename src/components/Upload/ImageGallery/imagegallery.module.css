@@ -1,0 +1,81 @@
+*::selection {
+    background: none;
+}
+.container label {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.label{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.image_upload_wrapper {
+    border: 1px dashed var(--grey-accent-a-800);
+    box-shadow: var(--shadow-100);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.upload_file_svg {
+    height: 200px;
+}
+.prompt {
+    width: max-content;
+    margin: 0% auto 10%;
+    font-size: 1.3rem;
+    color: var(--grey-accent-800);
+}
+.gallery {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.gallery_image {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.gallery_image img {
+    object-fit: contain;
+    border-radius: 16px;
+}
+.add_image {
+    border: 1px dashed var(--grey-accent-a-800);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+}
+
+.image_evidence_wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.icon_trash {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: var(--grey-accent-a-300);
+    padding: 8px;
+    cursor: pointer;
+}
+
+.error {
+    font-size: 0.8em;
+    color: red;
+}
+.field_error {
+    border-color: red;
+}
