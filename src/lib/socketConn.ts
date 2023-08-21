@@ -1,6 +1,7 @@
-import {connect} from "socket.io-client";
+import { connect } from "socket.io-client";
 
-export default connect(process.env.REACT_APP_SOCKET_URL!, {
-    withCredentials:true,
-    timeout:20000,
+export default connect("http://localhost:3100/api/v1", {
+  withCredentials: true,
+  timeout: 20000,
+  transports: ["websocket"],
 });

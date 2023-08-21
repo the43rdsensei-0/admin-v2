@@ -12,7 +12,7 @@ export default ({ mode }) => {
       port: 3200,
       proxy: {
         "/api": {
-          target: "http://localhost:3201",
+          target: "http://localhost:3100",
           changeOrigin: true,
           secure: false,
         },
